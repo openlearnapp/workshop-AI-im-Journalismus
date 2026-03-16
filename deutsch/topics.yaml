@@ -3,3 +3,6 @@ topics:
     code: de-DE
     title: "KI in der Redaktion"
     description: "Qualitaet, Sicherheit und Effizienz im KI-gestuetzten Journalismus"
+    color: "220 30% 12%"
+    primaryColor: "195 100% 50%"
+    image: "ai-im-journalismus/thumbnail.svg"

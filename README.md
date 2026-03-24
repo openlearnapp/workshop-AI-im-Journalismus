@@ -1,6 +1,6 @@
 # Workshop: KI in der Redaktion
 
-> **[Landing Page](https://openlearnapp.github.io/workshop-AI-im-Journalismus/)** · **[Start Workshop](https://open-learn.app/#/add?source=https://open-learn.app/workshop-AI-im-Journalismus/)**
+> **[Landing Page](https://open-learn.app/workshop-AI-im-Journalismus/)** · **[Start Workshop](https://open-learn.app/#/add?source=https://open-learn.app/workshop-AI-im-Journalismus/)**
 
 Ein interaktiver Workshop zu Qualitaet, Sicherheit und Effizienz im KI-gestuetzten Journalismus. Basierend auf dem Konzept "KI in der Redaktion -- Qualitaet, Sicherheit und Effizienz neu gedacht".
 
@@ -48,4 +48,4 @@ workshop-AI-im-Journalismus/
 ## Links
 
 - [Open Learn Platform](https://open-learn.app/)
-- [Open Learn Repository](https://github.com/openlearnapp/openlearnapp.github.io)
+- [Open Learn Repository](https://github.com/openlearnapp)

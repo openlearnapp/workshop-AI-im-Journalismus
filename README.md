@@ -1,6 +1,6 @@
 # Workshop: KI in der Redaktion
 
-> **[Workshop starten](https://felixboehm.github.io/open-learn/#/add?source=https://felixboehm.github.io/workshop-AI-im-Journalismus/index.yaml)**
+> **[Landing Page](https://openlearnapp.github.io/workshop-AI-im-Journalismus/)** · **[Start Workshop](https://open-learn.app/#/add?source=https://open-learn.app/workshop-AI-im-Journalismus/)**
 
 Ein interaktiver Workshop zu Qualitaet, Sicherheit und Effizienz im KI-gestuetzten Journalismus. Basierend auf dem Konzept "KI in der Redaktion -- Qualitaet, Sicherheit und Effizienz neu gedacht".
 
@@ -47,5 +47,5 @@ workshop-AI-im-Journalismus/
 
 ## Links
 
-- [Open Learn Platform](https://felixboehm.github.io/open-learn/)
-- [Open Learn Repository](https://github.com/felixboehm/open-learn)
+- [Open Learn Platform](https://open-learn.app/)
+- [Open Learn Repository](https://github.com/openlearnapp/openlearnapp.github.io)

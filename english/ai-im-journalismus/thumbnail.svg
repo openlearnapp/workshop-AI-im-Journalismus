@@ -1,0 +1,76 @@
+<svg width="1280" height="800" viewBox="0 0 1280 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#1a2540"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(255,255,255,0.12)"/>
+      <stop offset="100%" style="stop-color:rgba(255,255,255,0.03)"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff" stop-opacity="0.6"/>
+      <stop offset="100%" style="stop-color:#7b61ff" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="800" fill="url(#bg)"/>
+
+  <!-- Grid lines (tech aesthetic) -->
+  <g opacity="0.06" stroke="white" stroke-width="1">
+    <line x1="0" y1="100" x2="1280" y2="100"/>
+    <line x1="0" y1="200" x2="1280" y2="200"/>
+    <line x1="0" y1="300" x2="1280" y2="300"/>
+    <line x1="0" y1="400" x2="1280" y2="400"/>
+    <line x1="0" y1="500" x2="1280" y2="500"/>
+    <line x1="0" y1="600" x2="1280" y2="600"/>
+    <line x1="0" y1="700" x2="1280" y2="700"/>
+    <line x1="160" y1="0" x2="160" y2="800"/>
+    <line x1="320" y1="0" x2="320" y2="800"/>
+    <line x1="480" y1="0" x2="480" y2="800"/>
+    <line x1="640" y1="0" x2="640" y2="800"/>
+    <line x1="800" y1="0" x2="800" y2="800"/>
+    <line x1="960" y1="0" x2="960" y2="800"/>
+    <line x1="1120" y1="0" x2="1120" y2="800"/>
+  </g>
+
+  <!-- Center card -->
+  <rect x="290" y="140" width="700" height="520" rx="24" fill="url(#card)" stroke="rgba(0,212,255,0.25)" stroke-width="1.5"/>
+
+  <!-- AI circuit icon -->
+  <g transform="translate(595, 210)">
+    <!-- Central node -->
+    <circle cx="45" cy="45" r="22" fill="rgba(0,212,255,0.15)" stroke="url(#glow)" stroke-width="2"/>
+    <text x="45" y="52" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="url(#glow)">AI</text>
+    <!-- Connecting lines -->
+    <line x1="45" y1="23" x2="45" y2="5" stroke="rgba(0,212,255,0.5)" stroke-width="1.5"/>
+    <line x1="45" y1="67" x2="45" y2="85" stroke="rgba(0,212,255,0.5)" stroke-width="1.5"/>
+    <line x1="23" y1="45" x2="5" y2="45" stroke="rgba(0,212,255,0.5)" stroke-width="1.5"/>
+    <line x1="67" y1="45" x2="85" y2="45" stroke="rgba(0,212,255,0.5)" stroke-width="1.5"/>
+    <!-- Outer nodes -->
+    <circle cx="45" cy="0" r="5" fill="rgba(0,212,255,0.6)"/>
+    <circle cx="45" cy="90" r="5" fill="rgba(123,97,255,0.6)"/>
+    <circle cx="0" cy="45" r="5" fill="rgba(0,212,255,0.6)"/>
+    <circle cx="90" cy="45" r="5" fill="rgba(123,97,255,0.6)"/>
+  </g>
+
+  <!-- Newspaper lines (journalism) -->
+  <rect x="370" y="370" width="540" height="8" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <rect x="370" y="390" width="400" height="8" rx="4" fill="rgba(255,255,255,0.10)"/>
+  <rect x="370" y="410" width="480" height="8" rx="4" fill="rgba(255,255,255,0.08)"/>
+
+  <!-- Main title -->
+  <text x="640" y="470" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold"
+        text-anchor="middle" fill="white" letter-spacing="2">KI in der Redaktion</text>
+
+  <!-- Subtitle -->
+  <text x="640" y="522" font-family="Arial, Helvetica, sans-serif" font-size="24"
+        text-anchor="middle" fill="rgba(0,212,255,0.85)" letter-spacing="1">AI im Journalismus · Qualität &amp; Sicherheit</text>
+
+  <!-- Divider -->
+  <rect x="490" y="548" width="300" height="1.5" rx="1" fill="url(#glow)" opacity="0.5"/>
+
+  <!-- Label -->
+  <text x="640" y="588" font-family="Arial, Helvetica, sans-serif" font-size="20"
+        text-anchor="middle" fill="rgba(255,255,255,0.4)" letter-spacing="3">10 LEKTIONEN · OPEN LEARN</text>
+</svg>

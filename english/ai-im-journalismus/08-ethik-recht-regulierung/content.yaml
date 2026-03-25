@@ -1,0 +1,111 @@
+version: 1
+number: 8
+title: "Ethics, Law and Regulation"
+description: "Legal framework and ethical guidelines for AI in journalism"
+sections:
+  - title: "The EU AI Act"
+    explanation: |
+      The EU AI Regulation (Regulation 2024/1689) came into force on August 1, 2024 --
+      the world's first comprehensive AI law.
+
+      **Relevant provisions:**
+      - Media is **not** classified as a high-risk area
+      - **Article 50**: AI-generated content must be labeled in machine-readable format
+      - Deepfakes and AI-generated texts on matters of public interest must be clearly labeled
+      - Companies must disclose what content was used for training
+
+      **Timeline:** The transparency obligations become applicable on **August 2, 2026**.
+
+      Criticism: Reporters Without Borders (RSF) warns that the business model of independent
+      media is further endangered by copyright violations.
+    examples:
+      - q: "What is the EU AI Act?"
+        a: "The EU AI Regulation (in force since August 2024) -- the world's first comprehensive AI law with transparency and labeling obligations"
+        rel:
+          - ["EU AI Act", "European AI Regulation, Regulation 2024/1689"]
+
+      - q: "Must AI-generated journalistic texts be labeled under the EU AI Act?"
+        a: "Yes -- from August 2026 AI-generated texts on topics of public interest must be disclosed (Article 50)"
+        rel:
+          - ["Artikel 50", "Labeling obligation for AI-generated content"]
+
+      - q: "Is journalism classified as a high-risk area?"
+        a: "No -- media is currently not classified as a high-risk area, so the strictest regulations do not directly apply"
+        rel:
+          - ["Risikoklassifikation", "Media is not a high-risk area in the AI Act"]
+
+      - q: "What does Reporters Without Borders (RSF) criticize about the EU AI Act?"
+        a: "RSF warns that the already fragile business model of independent media is further endangered by copyright violations and the use of generative AI"
+        rel:
+          - ["RSF-Kritik", "Endangerment of independent media through AI"]
+
+  - title: "German Press Code and Regulation"
+    explanation: |
+      In Germany there are several regulatory levels:
+
+      **German Press Council (since March 2025):**
+      - Preamble amendment: Newsrooms bear press-ethical responsibility also for AI-generated content
+      - **No** labeling obligation for AI texts
+      - **Labeling obligation for AI images** as symbolic images
+      - The entire press code applies unchanged to AI content
+
+      **State Media Authorities:**
+      - Position paper "AI and Media -- Strengthening Diversity, Regulating Responsibility, Preserving Trust"
+      - Responsible for supervising AI in broadcasting and telemedia
+      - **90% of respondents** demand binding labeling obligations
+
+      **Digital Media State Treaty (draft June 2025):**
+      - Implements requirements from four EU regulatory frameworks
+    examples:
+      - q: "Must AI-generated texts be labeled under the press code?"
+        a: "No -- the German Press Council currently does not consider an additional labeling obligation for AI texts necessary, but AI-generated images must be labeled as symbolic images"
+        rel:
+          - ["Pressekodex-KI", "No text obligation, but image labeling"]
+
+      - q: "What does the preamble amendment to the press code state?"
+        a: "Newsrooms bear press-ethical responsibility for all contributions -- regardless of the method of creation, including AI-generated content"
+        rel:
+          - ["Presseethische Verantwortung", "Also applies to AI-generated content"]
+
+      - q: "Who is responsible for AI oversight in media in Germany?"
+        a: "The state media authorities -- they are responsible for supervising AI applications in broadcasting and telemedia, not the Federal Network Agency"
+        rel:
+          - ["Landesmedienanstalten", "Oversight of AI in media"]
+
+      - q: "What percentage of Germans demand a labeling obligation for AI content?"
+        a: "90% of respondents demand binding labeling obligations according to a study by the state media authorities"
+        rel:
+          - ["Oeffentliche Erwartung", "90% demand AI labeling obligation"]
+
+  - title: "Copyright and Lawsuits"
+    explanation: |
+      The copyright situation for AI is highly fluid:
+
+      - The number of lawsuits more than doubled in 2025 from 30 to **over 70**
+      - **NYT vs. OpenAI**: The NYT is suing over training with NYT articles (fair use dispute, ongoing)
+      - **NYT vs. Perplexity**: Lawsuit over stolen journalism after failed licensing negotiations
+      - **Advance vs. Cohere**: First decision allowing output-copy claims for news summaries
+      - **Perplexity Revenue-Sharing**: In response to plagiarism accusations, Perplexity now shares revenue with publishers (including Spiegel)
+
+      Purely AI-generated works enjoy **no copyright protection** in most countries.
+    examples:
+      - q: "What is the central point of contention in NYT vs. OpenAI?"
+        a: "Whether training AI models with NYT articles is fair use (OpenAI's argument) or systematic theft (NYT's position) -- the case is ongoing"
+        rel:
+          - ["NYT vs. OpenAI", "Central copyright lawsuit in the AI field"]
+          - ["Fair Use", "US copyright exception"]
+
+      - q: "Do AI-generated texts have copyright protection?"
+        a: "No -- under current law, purely AI-generated works enjoy no copyright protection in most countries"
+        rel:
+          - ["KI-Urheberrecht", "Purely AI-generated works are not protected"]
+
+      - q: "What is the Perplexity revenue-sharing model?"
+        a: "In response to plagiarism accusations, Perplexity now shares revenue with publishers -- including Der Spiegel, Fortune, Time and The Texas Tribune"
+        rel:
+          - ["Revenue-Sharing", "Revenue sharing between AI provider and publishers"]
+
+      - q: "How has the number of copyright lawsuits against AI companies developed?"
+        a: "It more than doubled in 2025: from around 30 at the end of 2024 to over 70"
+        rel:
+          - ["Klagewelle", "More than doubling of AI copyright lawsuits in 2025"]

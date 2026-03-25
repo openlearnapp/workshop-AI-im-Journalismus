@@ -1,0 +1,114 @@
+version: 1
+number: 4
+title: "Prompt Engineering for Journalists"
+description: "The art of giving AI systems precise instructions"
+sections:
+  - title: "Fundamentals of Prompt Engineering"
+    explanation: |
+      The quality of AI output depends heavily on the **prompt** -- the instruction given to the AI system.
+      Prompt engineering in 2025 is no longer just about asking questions, but about designing
+      question types that lead AI models to accurate, relevant and actionable outputs.
+
+      **The five most important techniques:**
+      - **Zero-Shot Prompting**: Direct task without examples
+      - **Few-Shot Prompting**: Task with examples for the desired style
+      - **Chain-of-Thought**: Forcing step-by-step reasoning
+      - **Role Prompting**: Assigning a role to the AI
+      - **Prompt Chaining**: Linking multiple prompts (research -> summary -> draft)
+    examples:
+      - q: "What is a prompt?"
+        a: "The textual instruction to an AI system that describes what it should do -- the more precise the prompt, the better the result"
+        rel:
+          - ["Prompt", "Instruction to an AI system"]
+          - ["Prompt Engineering", "The art of writing good prompts"]
+
+      - q: "What is the difference between zero-shot and few-shot prompting?"
+        a: "Zero-shot gives the task directly without examples. Few-shot provides examples for the desired style or format"
+        rel:
+          - ["Zero-Shot", "Direct task without examples"]
+          - ["Few-Shot", "Task with examples for the desired output"]
+
+      - q: "What is chain-of-thought prompting?"
+        a: "A technique where you ask the AI to think step by step -- e.g. 'Analyze this statistic step by step and check for inconsistencies'"
+        rel:
+          - ["Chain-of-Thought", "Forcing step-by-step reasoning"]
+
+      - q: "What does prompt chaining mean?"
+        a: "Linking multiple prompts into a workflow -- e.g. first research, then summary, then fact-check, then text draft"
+        rel:
+          - ["Prompt Chaining", "Linking multiple prompts into a workflow"]
+
+  - title: "Best Practices for Daily Newsroom Work"
+    explanation: |
+      **Be specific:**
+      Bad: "Write an article about climate change"
+      Better: "Create a 300-word news report about the COP29 results for a German regional
+      audience. Focus on concrete resolutions relevant to local climate policy.
+      Style: factual-informative, no opinion."
+
+      **Provide context:**
+      Include background information, target audience and available facts.
+
+      **Specify format:**
+      Define length, style, structure and constraints.
+
+      **Work iteratively:**
+      Test prompts, evaluate results, refine input, create templates.
+    examples:
+      - q: "What is a common mistake in prompting?"
+        a: "Too vague instructions without context, target audience or format specifications -- e.g. 'Write an article about climate change' instead of a precise task description"
+        rel:
+          - ["Vage Prompts", "Most common mistake -- too little context and specifications"]
+
+      - q: "Why should you define a role in the prompt?"
+        a: "Because the AI then adjusts tone, terminology and perspective accordingly -- e.g. 'You are an experienced business journalist'"
+        rel:
+          - ["Role Prompting", "Assigning the AI a role for better results"]
+
+      - q: "What should a good journalistic prompt contain?"
+        a: "Role, context, task, target audience, format, length and constraints -- e.g. 'Use only the following facts'"
+        rel:
+          - ["Prompt-Struktur", "Role + context + task + format + constraints"]
+
+      - q: "Why is iterative work important in prompting?"
+        a: "Because the first prompt rarely delivers the perfect result -- through testing, evaluating and refining you gradually improve quality"
+        rel:
+          - ["Iteratives Prompting", "Gradual refinement of prompts"]
+
+  - title: "Journalism-Specific Prompt Templates"
+    explanation: |
+      Reusable templates save time and ensure quality:
+
+      **Fact-check prompt:**
+      "Check the following claims for plausibility. For each one list:
+      (1) the claim, (2) known facts for/against, (3) possible sources
+      for verification, (4) confidence assessment."
+
+      **Research prompt:**
+      "Create a research plan on topic [X]. Identify: (1) core questions,
+      (2) relevant experts and institutions, (3) possible data sources,
+      (4) alternative perspectives that should be considered."
+
+      **Summary prompt:**
+      "Based on the following report, create a summary with the
+      5 most important points. Mark passages that require verification."
+    examples:
+      - q: "Why are reusable prompt templates useful?"
+        a: "They save time on recurring tasks, ensure consistent quality and can be shared within the team"
+        rel:
+          - ["Prompt-Templates", "Reusable templates for AI instructions"]
+
+      - q: "How do you formulate a good fact-check prompt?"
+        a: "List claims, for each provide known facts for/against, suggest sources for verification and give a confidence assessment"
+        rel:
+          - ["Faktencheck-Prompt", "Template for AI-assisted fact-checking"]
+
+      - q: "What constraint should always be set for text drafts?"
+        a: "'Do not invent direct quotes, only use existing ones' and 'Mark passages that require independent verification'"
+        rel:
+          - ["Einschraenkungen", "Setting limits prevents hallucinations"]
+
+      - q: "How can AI prompts be standardized within a team?"
+        a: "Through a shared prompt library with tested templates for various tasks like research, summarization, translation and fact-checking"
+        rel:
+          - ["Prompt-Bibliothek", "Shared collection of tested prompt templates"]

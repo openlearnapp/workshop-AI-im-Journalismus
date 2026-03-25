@@ -1,0 +1,100 @@
+version: 1
+number: 5
+title: "Hallucinations and Bias"
+description: "The greatest dangers of AI use in journalism"
+sections:
+  - title: "AI Hallucinations"
+    explanation: |
+      **Hallucinations** occur when AI generates plausible-sounding but factually incorrect information.
+      The problem is severe:
+
+      - AI chatbots exhibit **hallucination rates of up to 79%**
+      - A study by the Tow Center found that **over 60% of AI search engine answers were inaccurate**
+      - Hallucinations include: fabricated quotes, false statistics, non-existent sources
+
+      Hallucinations are particularly dangerous under time pressure during real-time reporting,
+      as the plausible-sounding errors are hard to detect.
+    examples:
+      - q: "What are AI hallucinations?"
+        a: "When AI generates plausible-sounding but factually incorrect information -- e.g. fabricated quotes, false statistics or non-existent sources"
+        rel:
+          - ["Halluzination", "Plausible-sounding but false AI outputs"]
+
+      - q: "How high is the hallucination rate of AI chatbots?"
+        a: "Up to 79% according to current studies -- and over 60% of AI search engine answers are inaccurate (Tow Center)"
+        rel:
+          - ["Halluzinationsrate", "Up to 79% for AI chatbots"]
+
+      - q: "Why are hallucinations particularly dangerous in journalism?"
+        a: "Because they sound plausible and are hard to detect under time pressure -- false facts can thus enter reporting"
+        rel:
+          - ["Echtzeit-Berichterstattung", "Particularly high hallucination risk under time pressure"]
+
+      - q: "What happened at CNET with AI-generated articles?"
+        a: "CNET published 77 AI-generated finance articles -- more than half had to be corrected afterwards, with errors ranging from factual inaccuracies to fundamentally wrong explanations"
+        rel:
+          - ["CNET-Skandal", "Over 50% of AI articles needed corrections"]
+
+  - title: "Bias and Distortions"
+    explanation: |
+      **Bias** (systematic distortion) arises from the training data of AI models:
+
+      - Training data can be biased, inaccurate or deliberately manipulated
+      - State and non-state actors can inject narratives into training data
+      - Systematic underrepresentation of certain perspectives and population groups
+      - Amplification of existing societal prejudices
+
+      For journalism this means: AI can produce one-sided representations
+      without this being apparent at first glance.
+    examples:
+      - q: "What does bias mean in the AI context?"
+        a: "Systematic distortions adopted from training data -- e.g. underrepresentation of certain perspectives or amplification of societal prejudices"
+        rel:
+          - ["Bias", "Systematic distortion in AI systems"]
+
+      - q: "How can AI biases affect journalism?"
+        a: "AI can produce one-sided representations, favor certain perspectives or underrepresent population groups -- without this being immediately apparent"
+        rel:
+          - ["Journalistischer Bias", "AI can amplify one-sided reporting"]
+
+      - q: "Can training data be deliberately manipulated?"
+        a: "Yes -- state and non-state actors can inject narratives into training data to influence AI outputs in their favor"
+        rel:
+          - ["Datenmanipulation", "Deliberate manipulation of AI training data"]
+
+      - q: "How can bias in AI outputs be detected?"
+        a: "Through diversity checks of results, comparison with alternative sources, sensitivity training for editors and systematic bias analyses"
+        rel:
+          - ["Bias-Analyse", "Systematic checking for distortions"]
+          - ["Diversitaetspruefung", "Checking whether all relevant perspectives are represented"]
+
+  - title: "Case Studies: When AI Goes Wrong"
+    explanation: |
+      Real cases illustrate the risks:
+
+      - **Sports Illustrated (2023)**: Articles under fictitious author names with AI-generated biographies -- invented team members like "Drew Ortiz" and "Sora Tanaka"
+      - **Gannett/USA Today**: AI-generated sports reports with absurd phrases like "close encounter of the athletic kind"
+      - **Google AI Overviews (2024)**: Recommended eating rocks and putting glue on pizza (adopted satirical forum posts as facts)
+      - **Perplexity AI (2024)**: Systematic plagiarism of paywall-protected exclusive content from Forbes and Wired
+
+      All cases show: Without human oversight, errors arise that destroy reader trust.
+    examples:
+      - q: "What happened in the Sports Illustrated AI scandal?"
+        a: "Sports Illustrated published articles under fictitious author names with completely AI-generated biographies and expertise -- the AI buying guides were monetized through affiliate links"
+        rel:
+          - ["Sports Illustrated", "Fake authors with AI-generated biographies"]
+
+      - q: "What was the problem with Google AI Overviews?"
+        a: "The AI adopted satirical forum posts as facts -- e.g. it recommended eating rocks. The Canadian Medical Association called AI-generated health advice dangerous"
+        rel:
+          - ["Google AI Overviews", "AI adopted satire as facts"]
+
+      - q: "What did Perplexity AI do with paywall-protected content?"
+        a: "Systematically plagiarized content from Forbes and Wired, scraped through undeclared web crawlers with fake user agent strings and reproduced with minimal attribution"
+        rel:
+          - ["Perplexity-Plagiat", "Systematic scraping of protected content"]
+
+      - q: "What is the most important lesson from these cases?"
+        a: "Without human oversight and clear guidelines, errors arise that destroy reader trust -- human-in-the-loop is not optional"
+        rel:
+          - ["Vertrauensverlust", "Consequence of uncontrolled AI use"]

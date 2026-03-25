@@ -1,0 +1,105 @@
+version: 1
+number: 1
+title: "Starting Point: AI in Journalism"
+description: "How AI is changing journalism and why newsrooms must act now"
+sections:
+  - title: "AI is Changing Journalism"
+    explanation: |
+      Artificial intelligence is already transforming journalism today. It can assist with research,
+      transcribe, structure, write and analyze. Used correctly, it saves time and opens up new
+      possibilities. Used without control, however, it endangers quality, credibility and
+      source protection.
+
+      **Key questions for newsrooms:**
+      - Where does AI deliver real value?
+      - Where do risks emerge?
+      - How can journalistic standards be maintained?
+      - How can gradual quality loss be prevented?
+    examples:
+      - q: "What is the goal of structured AI use in journalism?"
+        a: "Not to automate journalism, but to make it future-proof with clear rules, safety mechanisms and quality controls"
+        rel:
+          - ["KI-Workflow-Design", "Structured use of AI in newsrooms"]
+
+      - q: "What are the two sides of AI in journalism?"
+        a: "Used correctly it saves time and opens new possibilities -- used without control it endangers quality, credibility and source protection"
+        rel:
+          - ["Chancen und Risiken", "AI as a double-edged sword in journalism"]
+
+      - q: "Why must newsrooms act now on AI?"
+        a: "Because 2025/2026 marks the transition from experimentation to systematic integration -- those who fail to create structures now risk quality losses"
+        rel:
+          - ["Operationalisierung", "From experiments to systematic AI integration"]
+
+      - q: "What fundamental problem do many newsrooms have with AI use?"
+        a: "Only 13% have formal AI guidelines -- usage is often left to individual journalists, leading to inconsistencies"
+        rel:
+          - ["KI-Richtlinien", "Formal rules for AI use in newsrooms"]
+
+  - title: "Facts and Figures on AI Adoption"
+    explanation: |
+      AI adoption in journalism is already well advanced:
+
+      - **81.7%** of journalists use AI tools in their work
+      - **49.4%** use AI daily
+      - **97%** of news organizations consider backend automation important
+      - **53%** of German journalists actively use AI tools
+      - **70%** of German journalists use AI primarily for translations and transcriptions
+      - **72%** of media companies plan to deploy more AI technologies by 2025
+
+      The Reuters Institute predicts increasing use of **agentic AI** for end-to-end
+      automation of complex workflows by 2026.
+    examples:
+      - q: "What percentage of journalists use AI tools?"
+        a: "81.7% use AI tools, of which 49.4% use them daily"
+        rel:
+          - ["KI-Adoption", "Spread of AI tools in journalism"]
+
+      - q: "What do German journalists use AI for most frequently?"
+        a: "For translations and transcriptions (70%)"
+        rel:
+          - ["Transkription", "Most common AI use case in German journalism"]
+
+      - q: "What is agentic AI?"
+        a: "AI systems that can autonomously execute complex workflows -- a trend predicted by the Reuters Institute for 2026"
+        rel:
+          - ["Agentische KI", "Agentic AI", "End-to-end automation through AI"]
+
+      - q: "What percentage of news organizations consider backend automation important?"
+        a: "97% according to the Reuters Institute"
+        rel:
+          - ["Backend-Automatisierung", "Behind-the-scenes automation in newsrooms"]
+
+  - title: "Pioneers and Examples"
+    explanation: |
+      Leading news organizations show how AI can be used effectively:
+
+      - **Associated Press (AP)**: Pioneer of automated reporting with Wordsmith since 2014
+      - **BBC**: AI for automatic live text updates in sports
+      - **New York Times**: Never uses AI to write articles, but for analyzing large datasets
+      - **dpa**: Own AI team since 2025, News Hub with AI research assistant
+      - **RADAR (UK)**: Produces approx. 8,000 localized stories from public data
+
+      In Germany, Spiegel, FAZ and Zeit are experimenting with AI-powered reach
+      optimization in a Google pilot program.
+    examples:
+      - q: "Which news agency was a pioneer in automated texts?"
+        a: "The Associated Press (AP) -- it has used automated quarterly report texts with Wordsmith since 2014"
+        rel:
+          - ["Associated Press", "AP", "Pioneer of automated reporting"]
+          - ["Wordsmith", "Software for automated text generation"]
+
+      - q: "How does the New York Times use AI?"
+        a: "Never for writing articles, but for analyzing large datasets -- e.g. hours of interviews and hundreds of Zoom calls for investigative research"
+        rel:
+          - ["New York Times", "NYT", "AI as analysis tool, not as author"]
+
+      - q: "What is the dpa News Hub?"
+        a: "An AI research assistant that exclusively accesses verified dpa information and delivers summaries with source references"
+        rel:
+          - ["dpa-News Hub", "AI research assistant of the German Press Agency"]
+
+      - q: "What is RADAR and how does it work?"
+        a: "An automated news agency by PA Media (UK) that produces approx. 8,000 localized stories from public data -- humans write the sentences, software localizes"
+        rel:
+          - ["RADAR", "Reporters and Data and Robots", "Automated local news"]

@@ -1,0 +1,8 @@
+topics:
+  - folder: ai-im-journalismus
+    code: en-US
+    title: "AI in the Newsroom"
+    description: "Quality, security and efficiency in AI-powered journalism"
+    color: "220 30% 12%"
+    primaryColor: "195 100% 50%"
+    image: "ai-im-journalismus/thumbnail.svg"

@@ -1,0 +1,107 @@
+version: 1
+number: 6
+title: "Deepfakes and Verification"
+description: "Detecting manipulated media and tools for verification"
+sections:
+  - title: "Understanding Deepfakes"
+    explanation: |
+      **Deepfakes** are AI-generated or manipulated media (images, videos, audio)
+      that appear deceptively real. The numbers are alarming:
+
+      - Approximately **500,000 deepfake videos** were shared on social media in 2023
+      - Projections show **up to 8 million deepfakes by 2025**
+      - The Russian-aligned campaign "Operation Overload" imitated over 80 organizations in 2025 using manipulated logos and voices
+      - Deepfake technology is increasingly used for disinformation campaigns
+
+      For journalists this means: Every image, video or audio must potentially
+      be verified before publication.
+    examples:
+      - q: "What is a deepfake?"
+        a: "An AI-generated or manipulated medium (image, video, audio) that appears deceptively real and can be used for disinformation"
+        rel:
+          - ["Deepfake", "AI-generated or manipulated medium"]
+
+      - q: "How many deepfake videos were shared on social media in 2023?"
+        a: "Approximately 500,000 -- with projections of up to 8 million by 2025"
+        rel:
+          - ["Deepfake-Verbreitung", "Rapidly growing number of manipulated media"]
+
+      - q: "What was Operation Overload?"
+        a: "A Russian-aligned disinformation campaign in 2025 that imitated over 80 organizations using manipulated logos and AI-generated voices"
+        rel:
+          - ["Operation Overload", "State disinformation with AI manipulation"]
+
+      - q: "Why are deepfakes a particular danger for journalism?"
+        a: "They can be used to spread disinformation and undermine trust in authentic media -- every medium must potentially be verified"
+        rel:
+          - ["Desinformation", "Deliberate spread of false information using AI"]
+
+  - title: "Detection Methods and Tools"
+    explanation: |
+      Journalists have various tools for deepfake detection:
+
+      - **InVID/WeVerify**: Video verification and metadata analysis, specifically for journalists
+      - **Hive Moderation**: AI-generated image and video detection
+      - **Deepware Scanner**: Quick initial screening of videos
+      - **Content Credentials (C2PA)**: Provenance standard for digital media
+      - **DeepFake-o-Meter**: Academic detection tool for in-depth analysis
+
+      **Detection methods:**
+      - Visual forensics: Facial inconsistencies, unnatural eye movements, lip sync errors
+      - Audio analysis: Voice tone variations, unnatural patterns
+      - Cross-modal consistency checks: Comparison between audio and video
+    examples:
+      - q: "Which tool is particularly suited for journalists for video verification?"
+        a: "InVID/WeVerify -- it offers video verification and metadata analysis and was specifically developed for journalists and fact-checkers"
+        rel:
+          - ["InVID/WeVerify", "Video verification tool for journalists"]
+
+      - q: "What is C2PA / Content Credentials?"
+        a: "A provenance standard that makes the origin of digital media traceable -- it documents whether and how a medium was edited or AI-generated"
+        rel:
+          - ["C2PA", "Content Credentials", "Provenance standard for digital media"]
+
+      - q: "How can AI-generated images be visually detected?"
+        a: "By artifacts such as unnatural hands, distorted text, inconsistent shadows, lip sync errors or overly perfect skin"
+        rel:
+          - ["Visuelle Forensik", "Detection of AI artifacts in images"]
+
+      - q: "What is a limitation of deepfake detection tools?"
+        a: "Journalists sometimes rely too heavily on the tools -- a study showed that detection tools are particularly overvalued when their results confirm one's own suspicion"
+        rel:
+          - ["Confirmation Bias", "Excessive trust in confirming tools"]
+
+  - title: "Verification Workflow"
+    explanation: |
+      A recommended 6-step workflow for verification:
+
+      1. **Initial screening**: Automated analysis with detection tools (e.g. Deepware Scanner)
+      2. **Metadata check**: Check EXIF data, file properties, C2PA credentials
+      3. **Visual inspection**: Manual check for artifacts and inconsistencies
+      4. **Source verification**: Trace back to origin, reverse image search, cross-checking
+      5. **Expert consultation**: Involve forensic experts when in doubt
+      6. **Editorial decision**: Human reviewers confirm findings
+
+      Classical methods like **reverse image search** (Google, TinEye, Yandex) and
+      **geo-verification** remain indispensable, especially for user-generated content.
+    examples:
+      - q: "What is the first step in the verification workflow?"
+        a: "An automated initial screening with detection tools like the Deepware Scanner -- this saves time and identifies obvious manipulations"
+        rel:
+          - ["Erstscreening", "First automated check with detection tools"]
+
+      - q: "What is reverse image search?"
+        a: "A search where you upload an image and look for the original context or similar images -- e.g. via Google, TinEye or Yandex"
+        rel:
+          - ["Reverse Image Search", "Reverse image search for source verification"]
+
+      - q: "What is geo-verification?"
+        a: "Determining the location where an image or video was taken based on visual clues like street signs, buildings, vegetation and geodata"
+        rel:
+          - ["Geoverifikation", "Determining the recording location"]
+          - ["OSINT", "Open Source Intelligence"]
+
+      - q: "Why is verification of user-generated content particularly important?"
+        a: "Because images and videos from social media are often shared without context, incorrectly dated or deliberately manipulated"
+        rel:
+          - ["UGC-Verifikation", "Verification of user-generated content"]

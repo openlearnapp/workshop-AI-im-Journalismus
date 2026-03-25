@@ -1,0 +1,110 @@
+version: 1
+number: 10
+title: "Guiding Principles and Competence Building"
+description: "Shared values and training for sovereign AI use"
+sections:
+  - title: "Seven Guiding Principles"
+    explanation: |
+      These principles serve as a shared compass for AI-powered journalism:
+
+      1. **AI supplements judgment, does not replace it** -- machines deliver text, humans bear responsibility
+      2. **Transparency builds trust** -- readers should be able to understand whether and how AI was used
+      3. **Verification is indispensable** -- AI statements are hypotheses, not facts
+      4. **Source protection takes priority over efficiency** -- sensitive information does not belong in external systems
+      5. **Speed is not an end in itself** -- being fast and wrong is worse than being slow and right
+      6. **Competence building over dependency** -- newsrooms should understand AI, not just operate it
+      7. **Ethics is a process** -- clear rules and verifiable standards are essential
+    examples:
+      - q: "What does the principle 'AI supplements judgment, does not replace it' mean?"
+        a: "Machines deliver text and preliminary work, but editorial responsibility and journalistic judgment remain with humans"
+        rel:
+          - ["Menschliche Urteilskraft", "AI supplements, does not replace"]
+
+      - q: "What does 'speed is not an end in itself' mean?"
+        a: "Being fast and wrong is worse than being slow and right -- AI must not lead to quality and diligence being sacrificed for speed"
+        rel:
+          - ["Qualitaet vor Geschwindigkeit", "Fast and wrong is worse than slow and right"]
+
+      - q: "What does 'competence building over dependency' mean?"
+        a: "Newsrooms should understand AI, not just operate it -- the goal is sovereign handling rather than blind dependency on AI providers"
+        rel:
+          - ["KI-Souveraenitaet", "Understanding rather than just operating"]
+
+      - q: "Why is ethics a process and not a state?"
+        a: "Because AI technology evolves rapidly and ethical standards must be continuously reviewed, adapted and further developed"
+        rel:
+          - ["Ethik als Prozess", "Continuous development of ethical standards"]
+
+  - title: "Competence Building and Training"
+    explanation: |
+      Sustainable AI use is built through knowledge and practice. Key programs:
+
+      **International:**
+      - **JournalismAI Skills Lab** (POLIS/LSE): 12 weeks, virtual, free -- plans to train 4,500 journalists from 100 countries
+      - **CUNY AI Journalism Labs**: Focus on leadership and practical AI implementation
+      - **Knight Center**: Online courses on prompt engineering and Google AI tools for journalists
+
+      **Germany:**
+      - **dpa "Wegweiser KI"**: Practice-oriented training program for German newsrooms (2024-2025)
+      - **BJV**: Training on AI use in newsrooms
+
+      Journalists with AI expertise earn on average **12% more** than colleagues
+      without these skills, and demand has risen by **over 30%**.
+    examples:
+      - q: "What is the JournalismAI Skills Lab?"
+        a: "A 12-week, virtual and free program by POLIS/LSE for practical implementation of AI in newsroom operations -- planned for 4,500 journalists from 100 countries"
+        rel:
+          - ["JournalismAI Skills Lab", "Free AI training for journalists"]
+
+      - q: "What AI training program exists specifically for German newsrooms?"
+        a: "The dpa program 'Wegweiser KI' -- a practice-oriented training program that supported German newsrooms in AI integration during 2024-2025"
+        rel:
+          - ["dpa Wegweiser KI", "German training program for newsrooms"]
+
+      - q: "How does AI competence affect journalists' salaries?"
+        a: "Journalists with AI expertise earn on average 12% more -- demand for AI skills has risen by over 30%"
+        rel:
+          - ["KI-Gehaltspraemie", "12% more earnings with AI expertise"]
+
+      - q: "What AI-related courses does the Knight Center offer?"
+        a: "Prompt Engineering 101 for Journalists and Google AI Tools for Journalists -- both as online courses, the latter 4 weeks and free"
+        rel:
+          - ["Knight Center", "Online AI courses for journalists"]
+
+  - title: "Five Core Competencies for the Future"
+    explanation: |
+      Journalists increasingly need these five competencies:
+
+      1. **Data literacy**: Interpretation and analysis of large datasets, AI-powered analytics
+      2. **Technical fundamentals**: Understanding of AI platforms, NLP and automation tools
+      3. **Critical thinking**: Evaluation and contextualization of AI outputs
+      4. **Prompt engineering**: Ability to formulate precise instructions for AI systems
+      5. **Ethical competence**: Understanding of copyright, attribution, bias and transparency
+
+      At the same time, skills remain indispensable that AI **cannot replace**:
+      Human empathy, ethical judgment, creative storytelling,
+      relationship building with sources and contextualization of complex issues.
+
+      The goal is not more output at any cost, but: assured quality,
+      protected sources, clear processes, sovereign AI use and long-term
+      reader trust.
+    examples:
+      - q: "What five core competencies do journalists need for the AI future?"
+        a: "Data literacy, technical fundamentals, critical thinking, prompt engineering and ethical competence"
+        rel:
+          - ["Zukunftskompetenzen", "The five core competencies for AI journalism"]
+
+      - q: "What skills can AI not replace?"
+        a: "Human empathy, ethical judgment, creative storytelling, relationship building with sources and contextualization of complex issues"
+        rel:
+          - ["Menschliche Staerken", "Skills that AI cannot replace"]
+
+      - q: "Why has data literacy become more important for journalists?"
+        a: "Because AI offers new possibilities for data analysis -- journalists must be able to interpret large datasets and use AI-powered analytics"
+        rel:
+          - ["Datenkompetenz", "Data Literacy", "Interpretation of large datasets"]
+
+      - q: "What is the overarching goal of sovereign AI use?"
+        a: "Assured quality, protected sources, clear processes, sovereign AI use and long-term reader trust -- not more output at any cost"
+        rel:
+          - ["Souveraener KI-Einsatz", "Quality and trust rather than maximum output"]

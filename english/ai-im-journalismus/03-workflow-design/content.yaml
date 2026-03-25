@@ -1,0 +1,114 @@
+version: 1
+number: 3
+title: "AI Workflow Design"
+description: "Clear and secure workflows for AI use in newsrooms"
+sections:
+  - title: "Step-by-Step AI Integration"
+    explanation: |
+      The integration of AI in newsrooms typically follows four phases:
+
+      **Phase 1: Assessment and Planning**
+      - Setting up an AI board with experts from IT, legal, HR and editorial
+      - Needs analysis: What do the people in the newsroom need?
+      - Assessment of existing infrastructure and resources
+
+      **Phase 2: Pilot Projects and Testing**
+      - Starting with small, low-risk pilot projects (e.g. metadata tagging, audio transcription)
+      - Setting up sandbox environments for safe testing
+      - Collaborative prompt engineering with authors using real articles
+
+      **Phase 3: Operational Rollout**
+      - Gradual expansion to additional areas of application
+      - Three quarters of AI spending goes toward editorial work and content creation
+
+      **Phase 4: Governance and Transparency**
+      - Establishing disclosure requirements and authorship rules
+      - Regular evaluation and adaptation of guidelines
+    examples:
+      - q: "What should be the first step in AI integration in a newsroom?"
+        a: "Setting up an AI board with experts from IT, legal, HR and various editorial departments for an initial assessment"
+        rel:
+          - ["KI-Board", "Interdisciplinary team for AI integration"]
+          - ["Bestandsaufnahme", "First step of AI integration"]
+
+      - q: "Why should you start with pilot projects?"
+        a: "Pilot projects are low-risk, build trust within the team and provide practical experience before broadly introducing AI"
+        rel:
+          - ["Pilotprojekt", "Low-risk entry into AI use"]
+          - ["Sandbox-Umgebung", "Protected area for testing AI tools"]
+
+      - q: "What is a sandbox environment for AI testing?"
+        a: "A protected area where AI tools can be tested without affecting real editorial processes or data"
+        rel:
+          - ["Sandbox", "Protected test area for AI experiments"]
+
+      - q: "Why do only 13% of newsrooms have formal AI guidelines?"
+        a: "Because the technology is evolving rapidly and many newsrooms are still in the experimentation phase -- but formal governance is urgently needed"
+        rel:
+          - ["KI-Governance", "Formal rules and structures for AI use"]
+
+  - title: "AI Deployment Points in the Newsroom"
+    explanation: |
+      AI can be meaningfully deployed at various points in the editorial workflow:
+
+      - **Research**: AI-powered topic discovery, source research, document analysis
+      - **Transcription**: Automatic transcription of interviews and press conferences
+      - **Structuring**: Summaries, metadata tagging, keyword indexing
+      - **Text drafts**: First drafts for data-driven reports (sports, markets, weather)
+      - **Translation**: Quick access to foreign-language source material
+      - **Community**: AI identifies relevant reader comments and forwards them to the editorial team
+
+      The dpa uses the "Story Radar", for example, which scans social networks for relevant topics.
+    examples:
+      - q: "For which routine tasks is AI suitable in daily newsroom operations?"
+        a: "Transcription, translation, summaries, metadata tagging, keyword indexing and data-driven text drafts"
+        rel:
+          - ["Routineaufgaben", "Repetitive tasks that AI can accelerate"]
+          - ["Metadaten-Tagging", "Automatic keyword indexing of articles"]
+
+      - q: "What is the dpa Story Radar?"
+        a: "An AI tool that scans social networks for relevant topics and alerts reporters to interesting stories"
+        rel:
+          - ["Story-Radar", "AI-powered topic discovery by dpa"]
+
+      - q: "How can AI help with community management?"
+        a: "AI identifies relevant reader comments and automatically forwards them via Teams or Slack to the responsible editorial team"
+        rel:
+          - ["Community-Management", "AI-powered analysis of reader comments"]
+
+      - q: "For what type of texts is automated reporting suitable?"
+        a: "For data-driven, repetitive formats like sports, market and weather reports that are based on structured data"
+        rel:
+          - ["Automatisierte Berichterstattung", "Text generation from structured data"]
+
+  - title: "Handoffs Between Humans and AI"
+    explanation: |
+      Clear handoff points are crucial for quality. The concept defines:
+
+      - **Defined review steps before publication**: Every AI output is editorially reviewed
+      - **Four-eyes principle**: AI-generated content is treated like agency reports -- it requires a second human review
+      - **Documented AI usage**: The editorial process records where AI was used
+      - **AI as a tool**: AI provides preliminary work, the journalist makes the decisions
+
+      MinnPost treats AI-generated material like a source that requires human editing
+      and fact-checking.
+    examples:
+      - q: "What does the four-eyes principle mean for AI-generated content?"
+        a: "AI-generated content is treated like agency reports -- at least one additional person reviews the content before publication"
+        rel:
+          - ["Vier-Augen-Prinzip", "Second human review of AI output"]
+
+      - q: "How does MinnPost treat AI-generated material?"
+        a: "Like a source that requires human editing and fact-checking -- AI output is raw material, not a finished article"
+        rel:
+          - ["KI als Quelle", "Treating AI output as raw material"]
+
+      - q: "Why is documenting AI usage important?"
+        a: "It creates transparency in the editorial process, enables traceability and is the foundation for later audits and quality controls"
+        rel:
+          - ["KI-Dokumentation", "Recording where and how AI was used"]
+
+      - q: "What is the core idea of AI workflow design?"
+        a: "AI as a tool -- not as a replacement for journalistic judgment. Clear rules define where AI may assist and where humans decide"
+        rel:
+          - ["KI als Werkzeug", "Core principle of AI workflow design"]

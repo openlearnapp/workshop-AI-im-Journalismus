@@ -1,0 +1,126 @@
+version: 1
+number: 2
+title: "AI Tools in Daily Newsroom Operations"
+description: "Which AI tools newsrooms use in practice"
+sections:
+  - title: "Large Language Models (LLMs)"
+    explanation: |
+      Large Language Models are the foundation of many AI applications in journalism:
+
+      - **ChatGPT (OpenAI)**: Text summaries, research support, brainstorming, data analysis
+      - **Claude (Anthropic)**: Long context windows for document analysis, nuanced text work
+      - **Perplexity AI**: Real-time web research with source citations, deep research mode
+      - **Google Gemini**: Integration with Google ecosystem, multimodal capabilities
+
+      OpenAI founded the "OpenAI Academy for News Organizations" in 2025 -- a program with
+      financial grants, technical support and access to the latest models.
+    examples:
+      - q: "What is a Large Language Model (LLM)?"
+        a: "An AI model trained on vast amounts of text that can understand and generate language -- examples include ChatGPT, Claude and Gemini"
+        rel:
+          - ["LLM", "Large Language Model", "Grosses Sprachmodell"]
+
+      - q: "Which AI tool is particularly suited for analyzing long documents?"
+        a: "Claude by Anthropic -- it offers especially long context windows and is well suited for extensive document analysis"
+        rel:
+          - ["Claude", "Anthropic", "Long context windows for document analysis"]
+
+      - q: "What distinguishes Perplexity AI from ChatGPT?"
+        a: "Perplexity provides answers with source citations and offers a deep research mode for verifiable research -- ChatGPT does not link sources by default"
+        rel:
+          - ["Perplexity AI", "AI search engine with source citations"]
+
+      - q: "What is the OpenAI Academy for News Organizations?"
+        a: "A program founded by OpenAI in 2025 with financial grants, technical support and access to the latest models for newsrooms"
+        rel:
+          - ["OpenAI Academy", "Support program for news organizations"]
+
+  - title: "Transcription and Translation"
+    explanation: |
+      **79% of newsrooms** use automated transcription for interviews. The key tools:
+
+      - **Trint**: 50+ languages, GDPR-compliant, does not train on user data -- standard at AFP and Guardian
+      - **Otter.ai**: Automatic meeting participation and summaries (privacy concerns -- Guardian has banned its use)
+      - **OpenAI Whisper**: Open-source model with 680,000 hours of training data, basis for many other tools
+      - **DeepL / DeepL Write**: Translation and text optimization, particularly strong for German
+
+      **Important:** Trint offers a "no-training" policy and a choice between EU and
+      US data storage -- a decisive advantage for source protection.
+    examples:
+      - q: "What percentage of newsrooms use automated transcription?"
+        a: "79% of newsrooms use automated transcription for interviews"
+        rel:
+          - ["Automatisierte Transkription", "Most common AI use in newsrooms"]
+
+      - q: "Why has the Guardian banned the use of Otter.ai?"
+        a: "Due to privacy concerns -- Otter.ai stores data and it is unclear whether it is used for model training"
+        rel:
+          - ["Datenschutzbedenken", "Risk with cloud-based transcription tools"]
+
+      - q: "What makes Trint particularly suitable for European newsrooms?"
+        a: "The no-training policy and the choice between EU and US data storage -- making it GDPR-compliant and protecting source confidentiality"
+        rel:
+          - ["Trint", "GDPR-compliant transcription with no-training policy"]
+          - ["DSGVO", "General Data Protection Regulation of the EU"]
+
+      - q: "What is OpenAI Whisper?"
+        a: "An open-source speech recognition model with 680,000 hours of training data -- it forms the basis for many other transcription tools"
+        rel:
+          - ["Whisper", "Open-source speech recognition by OpenAI"]
+
+  - title: "Specialized Tools for Journalism"
+    explanation: |
+      Beyond general AI tools, there are tools specifically developed for journalism:
+
+      - **Google Pinpoint**: Free, analyzes up to 200,000 documents, identifies people/places/organizations, transcribes audio/video -- the Boston Globe won a Pulitzer Prize with it
+      - **dpa News Hub**: AI research assistant that only accesses verified dpa sources
+      - **Djinn (Norway)**: Searches thousands of municipal documents for local reporting
+      - **LocalLens**: Transcribes and summarizes local government meetings
+      - **Dataminr**: Real-time detection of events and breaking news before virality
+      - **Rolli Information Tracer**: Tracks the spread of information across different platforms
+    examples:
+      - q: "What is Google Pinpoint and what can it do?"
+        a: "A free document analysis tool for journalists -- it automatically identifies people, organizations and places in up to 200,000 documents and transcribes audio/video"
+        rel:
+          - ["Google Pinpoint", "Free document analysis tool"]
+
+      - q: "Which investigative research was supported by Google Pinpoint?"
+        a: "The Pulitzer Prize-winning research by the Boston Globe (2021). Maria Ressa processed 13,000 CIA documents in 30 minutes"
+        rel:
+          - ["Pulitzer-Preis", "Award-winning research with AI support"]
+
+      - q: "What makes Dataminr valuable for newsrooms?"
+        a: "It detects events and trends in real time and discovers breaking news before they go viral"
+        rel:
+          - ["Dataminr", "Real-time detection of events and trends"]
+
+      - q: "What is the Rolli Information Tracer?"
+        a: "A tool that tracks the spread of information across different platforms, identifies origins of claims and shows how content changes as it is shared"
+        rel:
+          - ["Information Tracer", "Tracks information spread across platforms"]
+
+  - title: "Fact-Checking Tools"
+    explanation: |
+      Dedicated AI tools support journalists in fact-checking:
+
+      - **Full Fact AI**: Transcribes audio/video with real-time detection of misinformation, used by 45+ organizations in 30 countries
+      - **ClaimBuster**: Analyzes political speeches and debates, automatically extracts verifiable claims (Duke Reporter's Lab)
+      - **Logically Facts**: Professional fact-checking with AI-powered prioritization
+
+      **Important:** These tools support fact-checking -- the final assessment always
+      remains with humans.
+    examples:
+      - q: "What is Full Fact AI and how widespread is it?"
+        a: "A tool that transcribes audio/video and detects misinformation in real time -- it is used by over 45 organizations in 30 countries"
+        rel:
+          - ["Full Fact AI", "AI-powered real-time fact-checking"]
+
+      - q: "What is ClaimBuster?"
+        a: "A tool developed at the Duke Reporter's Lab that automatically identifies verifiable claims in political speeches and debates"
+        rel:
+          - ["ClaimBuster", "Automatic detection of verifiable claims"]
+
+      - q: "Can AI tools completely take over fact-checking?"
+        a: "No -- AI tools can provide hints and identify claims, but the final assessment must always be made by a journalist (human-in-the-loop)"
+        rel:
+          - ["Human-in-the-Loop", "Humans make the final decision in fact-checking"]

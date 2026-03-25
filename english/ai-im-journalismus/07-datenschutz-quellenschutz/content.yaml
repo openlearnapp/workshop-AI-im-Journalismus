@@ -1,0 +1,106 @@
+version: 1
+number: 7
+title: "Data Protection and Source Protection"
+description: "Confidentiality and data security when using AI tools"
+sections:
+  - title: "Risks of Cloud-Based AI Tools"
+    explanation: |
+      Using AI tools poses significant risks to source protection:
+
+      - **Data leaks**: ChatGPT had security incidents where conversation titles of other users were displayed
+      - **Training data**: Inputs can be processed, stored and used for future model training
+      - **Confidentiality**: Confidential source information could flow into future AI models
+      - **Encryption**: OpenAI is working on client-side encryption, but simultaneously hints at automated surveillance systems
+
+      For journalists who work with sensitive source information, these
+      risks can be existential -- a data leak can endanger sources.
+    examples:
+      - q: "Why are cloud-based AI tools risky for source protection?"
+        a: "Inputs can be stored and used for model training -- confidential source information could thus flow into future AI models"
+        rel:
+          - ["Cloud-KI-Risiko", "Confidential data can flow into model training"]
+
+      - q: "What security incident occurred at ChatGPT?"
+        a: "Some users were shown the conversation titles of other users -- particularly problematic for journalists with sensitive sources"
+        rel:
+          - ["ChatGPT-Datenleck", "Conversation titles of other users were visible"]
+
+      - q: "What is the problem with client-side scanning in AI tools?"
+        a: "It undermines encryption and increases the risk of attack -- even if it is officially meant to serve security"
+        rel:
+          - ["Client-Side-Scanning", "Undermines encryption despite security promises"]
+
+      - q: "Why is a privacy policy alone not sufficient?"
+        a: "Studies show significant gaps in users' understanding of AI providers' data practices -- concerns exist about unauthorized data access and long data retention"
+        rel:
+          - ["Datenschutz-Transparenz", "Gaps between promises and practice"]
+
+  - title: "Practical Protective Measures"
+    explanation: |
+      Journalists can protect themselves with concrete measures:
+
+      1. **No confidential data in AI tools**: Especially not in cloud-based services like ChatGPT, Copilot or Gemini
+      2. **Use Temporary Chat**: ChatGPT's temporary chat does not save conversations and does not use them for training
+      3. **Local AI models**: For sensitive research, locally running models (e.g. Ollama/Llama) can be a safer alternative
+      4. **GDPR-compliant tools**: European tools like Trint offer EU data storage and a no-training policy
+      5. **Editorial guidelines**: Clear internal rules about what information may be entered into AI tools
+
+      The concept defines: **Source protection takes priority over efficiency.**
+    examples:
+      - q: "May confidential documents be uploaded to ChatGPT?"
+        a: "No -- external AI services can store data and use it for training. Confidential material does not belong in cloud AI tools"
+        rel:
+          - ["Vertraulichkeit", "No sensitive data in external AI tools"]
+
+      - q: "What is Temporary Chat in ChatGPT?"
+        a: "A mode that does not save conversations in the history and does not use them for training -- retention maximum 30 days at OpenAI"
+        rel:
+          - ["Temporary Chat", "Non-saved mode in ChatGPT"]
+
+      - q: "What are local AI models and why are they more secure?"
+        a: "Models like Ollama/Llama run on your own computer -- data never leaves the device, which significantly improves source protection"
+        rel:
+          - ["Lokale KI", "AI models on your own computer"]
+          - ["Ollama", "Tool for running AI models locally"]
+
+      - q: "What does the no-training policy at Trint mean?"
+        a: "Trint does not use uploaded audio and text data for training its AI models -- a decisive advantage for European newsrooms and source protection"
+        rel:
+          - ["No-Training-Policy", "Provider does not use user data for model training"]
+
+  - title: "Avoiding Sensitive Data Input"
+    explanation: |
+      Newsrooms need clear rules about what may be entered into AI tools:
+
+      **Never enter into external AI tools:**
+      - Names and contact details of confidential sources
+      - Unpublished material and exclusive research results
+      - Internal editorial documents and strategy papers
+      - Personal data (GDPR!)
+      - Material from ongoing legal proceedings
+
+      **Safe to use:**
+      - Publicly available information
+      - Already published articles for summarization
+      - General research questions without sensitive context
+      - Translation of public press releases
+    examples:
+      - q: "What information must never be entered into external AI tools?"
+        a: "Names of confidential sources, unpublished material, internal documents, personal data and material from ongoing legal proceedings"
+        rel:
+          - ["Sensible Daten", "Information that never belongs in AI tools"]
+
+      - q: "What information can safely be processed in AI tools?"
+        a: "Publicly available information, already published articles, general research questions and public press releases"
+        rel:
+          - ["Sichere Nutzung", "Harmless data for AI processing"]
+
+      - q: "What guiding principle applies in the tension between efficiency and source protection?"
+        a: "Source protection takes priority over efficiency -- sensitive information does not belong in external systems, even if AI would speed up the work"
+        rel:
+          - ["Quellenschutz vor Effizienz", "Security takes priority over speed"]
+
+      - q: "How should a newsroom implement rules for AI data input?"
+        a: "Through clear internal guidelines with concrete examples, training for all staff and regular compliance reviews"
+        rel:
+          - ["Interne KI-Richtlinien", "Concrete rules for handling data in AI tools"]

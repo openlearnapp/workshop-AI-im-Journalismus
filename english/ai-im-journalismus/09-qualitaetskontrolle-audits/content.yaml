@@ -1,0 +1,108 @@
+version: 1
+number: 9
+title: "Quality Control and Audits"
+description: "Systematic quality assurance for AI-powered journalism"
+sections:
+  - title: "The Human-in-the-Loop Principle"
+    explanation: |
+      The fundamental principle is: **Journalism is a human-driven activity.**
+      AI can support, but cannot replace the judgment, creativity and
+      accountability that define quality journalism.
+
+      **Implementation in practice:**
+      - Every AI-generated content is reviewed by human editors before publication
+      - Four-eyes principle for AI-generated content
+      - AI output is treated like agency material: raw material that must be edited
+      - Human editors always have the final say
+
+      Approximately **90% of the examined guidelines** (from an analysis of 45 news organizations)
+      require that AI use in a story must be disclosed.
+    examples:
+      - q: "What does human-in-the-loop mean in journalism?"
+        a: "That every AI-generated content is reviewed and approved by human editors before publication -- humans always have the final say"
+        rel:
+          - ["Human-in-the-Loop", "Human review of every AI output"]
+
+      - q: "What percentage of editorial guidelines require disclosure of AI use?"
+        a: "Approximately 90% -- based on an analysis of guidelines from 45 news organizations"
+        rel:
+          - ["KI-Offenlegung", "90% of guidelines require transparency"]
+
+      - q: "How should AI output be treated in daily editorial work?"
+        a: "Like agency material -- as raw material that requires human editing, fact-checking and editorial review"
+        rel:
+          - ["KI-Output als Rohmaterial", "Treatment like agency reports"]
+
+      - q: "What principle does the AP follow in AI use?"
+        a: "AI must not be used to create publishable content and images for the news service -- only for internal support"
+        rel:
+          - ["AP-Grundsatz", "No AI-generated content in the news service"]
+
+  - title: "Quality Assurance Checklist"
+    explanation: |
+      Every AI-assisted content should go through these review steps:
+
+      1. **Fact-check**: Verify all AI-generated statements against original sources
+      2. **Source verification**: Are the named sources real and correctly cited?
+      3. **Bias check**: Identify one-sided representations or systematic distortions
+      4. **Tone**: Does the style meet editorial standards?
+      5. **Labeling**: Disclose AI use according to internal guidelines
+      6. **Versioning**: Document the prompts and AI tools used
+
+      Quality assurance does not become less important with AI, but **more important**.
+    examples:
+      - q: "What is the most important step in quality assurance of AI content?"
+        a: "The fact-check -- all AI-generated statements must be verified against original sources, since AI can produce hallucinations"
+        rel:
+          - ["Faktencheck", "Verification of all AI statements against original sources"]
+
+      - q: "Why is source verification particularly important for AI texts?"
+        a: "Because AI frequently invents non-existent sources or cites sources incorrectly -- every named source must be checked for existence and accurate reproduction"
+        rel:
+          - ["Quellenverifikation", "Checking whether named sources are real and correct"]
+
+      - q: "What does versioning mean in the context of AI-powered journalism?"
+        a: "The documentation of which prompts and AI tools were used -- this enables traceability and later audits"
+        rel:
+          - ["Versionierung", "Documentation of prompts and tools used"]
+
+      - q: "Why does quality assurance become more important with AI?"
+        a: "Because AI introduces new error sources (hallucinations, bias, plagiarism) that are not covered by traditional review methods"
+        rel:
+          - ["Erweiterte QA", "New error sources require new review steps"]
+
+  - title: "AI Audits in Newsrooms"
+    explanation: |
+      Only about **50% of newsrooms** are working on AI usage guidelines -- systematic
+      audits are the exception. An audit checklist for newsrooms:
+
+      1. **Tool inventory**: Which AI tools are being used?
+      2. **Data flow**: What data is being transmitted to AI services?
+      3. **Output quality**: How often do AI results need to be corrected?
+      4. **Compliance**: Are internal guidelines being followed?
+      5. **Transparency**: Is AI use being disclosed to the audience?
+      6. **Data protection**: Are personal data and sources being protected?
+      7. **Cost efficiency**: Is the cost-benefit ratio reasonable?
+
+      The goal is **traceable quality** -- regardless of whether content was created
+      by humans or with AI.
+    examples:
+      - q: "What percentage of newsrooms are working on AI usage guidelines?"
+        a: "About 50% -- of those, only four have public guidelines, three have internal ones and six more are in draft stage (survey of 28 newsrooms)"
+        rel:
+          - ["KI-Richtlinien-Status", "Only 50% are working on formal guidelines"]
+
+      - q: "What belongs in an AI audit in a newsroom?"
+        a: "Tool inventory, data flow analysis, output quality, compliance check, transparency check, data protection assessment and cost efficiency"
+        rel:
+          - ["KI-Audit", "Systematic review of AI use in newsrooms"]
+
+      - q: "Who should be involved in developing AI guidelines?"
+        a: "Editorial teams, legal department and audience teams -- AI use is an editorial matter, not purely technical"
+        rel:
+          - ["Richtlinien-Entwicklung", "Interdisciplinary collaboration"]
+
+      - q: "What is the goal of AI audits?"
+        a: "Traceable quality -- regardless of whether content was created by humans or with AI"
+        rel:
+          - ["Nachvollziehbare Qualitaet", "Goal of quality control"]

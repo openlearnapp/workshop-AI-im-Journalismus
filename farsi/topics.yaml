@@ -1,0 +1,8 @@
+topics:
+  - folder: ai-im-journalismus
+    code: fa-IR
+    title: "هوش مصنوعی در تحریریه"
+    description: "کیفیت، امنیت و کارایی در روزنامه‌نگاری مبتنی بر هوش مصنوعی"
+    color: "220 30% 12%"
+    primaryColor: "195 100% 50%"
+    image: "ai-im-journalismus/thumbnail.svg"

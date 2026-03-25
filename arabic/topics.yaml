@@ -1,0 +1,8 @@
+topics:
+  - folder: ai-im-journalismus
+    code: ar-SA
+    title: "الذكاء الاصطناعي في غرفة الأخبار"
+    description: "الجودة والأمان والكفاءة في الصحافة المدعومة بالذكاء الاصطناعي"
+    color: "220 30% 12%"
+    primaryColor: "195 100% 50%"
+    image: "ai-im-journalismus/thumbnail.svg"

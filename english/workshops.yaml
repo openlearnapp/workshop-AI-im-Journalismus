@@ -1,4 +1,4 @@
-topics:
+workshops:
   - folder: ai-im-journalismus
     code: en-US
     title: "AI in the Newsroom"
@@ -6,3 +6,4 @@ topics:
     color: "220 30% 12%"
     primaryColor: "195 100% 50%"
     image: "ai-im-journalismus/thumbnail.svg"
+    labels: ["IT"]
